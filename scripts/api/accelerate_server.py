@@ -190,4 +190,4 @@ if __name__ == '__main__':
             )
     
     model.eval()
-    uvicorn.run(app, host='0.0.0.0', port=8001, workers=1)
+    uvicorn.run(app, host='0.0.0.0', port=8080, workers=1)
